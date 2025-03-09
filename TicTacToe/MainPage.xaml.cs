@@ -94,8 +94,12 @@
                     Btn9.Opacity = 1;
                 }
 
-
+                
             }
+
+            if (tura == 9)
+                clear();
+            
         }
 
         private void OnBtnClicked(object sender, EventArgs e)
